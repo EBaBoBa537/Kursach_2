@@ -1,0 +1,69 @@
+div.zagolovok_8 {
+    left: 30px;
+    background-image: url(foto/zagolovok_8.png);
+    padding: 6px 36px 48px 22px;
+    background-size: 348px;
+    margin-top: 28px;
+}
+#otzyzy_block {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    position: relative;
+    margin-top: -10px;
+    flex-wrap: wrap;
+}
+
+#otzyzy_block .otzyv {
+    width: 40%;
+    background-color: white;
+    border: 3px solid #000000;
+    padding-left: 18px;
+    padding-top: 14px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+    margin-bottom: 40px;
+}
+#otzyzy_block .otzyv .name_i_zvezdy {
+    display: flex;
+    justify-content: space-between;
+}
+#otzyzy_block .otzyv .name_i_zvezdy .name {
+    /* background-color: #f4f0cd; */
+    font-size: 24px;
+    width: fit-content;
+    /* padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px; */
+}
+#otzyzy_block .otzyv .name_i_zvezdy .zvezdy img {
+    width: 20px;
+}
+#otzyzy_block .otzyv .otzyv_text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+#otzyzy_block .otzyv .data_i_ocenki {
+    display: flex;
+    justify-content: left;
+}
+#otzyzy_block .otzyv .data_i_ocenki .data {
+    color: #A5A5A5;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+#smotret_vse {
+    position: absolute;
+    width: 150%;
+    left: -25%;
+    height: 150px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    bottom: 0px;
+    background: linear-gradient(#00000000, #0000003c,#000000a9, #000000);
+}
+

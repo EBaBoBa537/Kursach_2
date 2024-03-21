@@ -1,0 +1,17 @@
+div.zagolovok_6 {
+    left: 30px;
+    background-image: url(foto/zagolovok_6.png);
+    padding: 0px 66px 48px 38px;
+    background-size: 285px;
+    margin-top: 35px;
+}
+#akcii_block {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -30px;
+}
+#akcii_block img {
+    width: 100%;
+    margin-top: 30px;
+}

@@ -1,0 +1,460 @@
+@font-face { font-family: textfont; src: url("http://localhost:8080/fonts/Montserrat-Medium.ttf"); }
+@font-face { font-family: headerfont; src: url("http://localhost:8080/fonts/Furore.otf"); }
+body::-webkit-scrollbar { width: 12px; }
+body::-webkit-scrollbar-thumb { background-color: #A86A38; }
+body::-webkit-scrollbar-thumb:hover { background-color: #FFA930; }
+body::-webkit-scrollbar-track { background-color: #351805; }
+button { font-family: 'textfont'; cursor: pointer; }
+
+body {
+    margin: 0px;
+    font-family: 'textfont';
+    overflow-x: hidden;
+    background-color: #FADC86;
+}
+a { text-decoration: none; }
+img { user-select: none; }
+
+#headerline_first {
+    width: 100%;
+    padding: 0 2% 0 22%;
+    height: 70px;
+    background-color: #351805;
+}
+#headerline_first div {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerline_first div div.text_headerline {
+    font-size: 15px;
+    color: #D1C4B3;
+    float: left;
+    padding-left: 40px;
+    position: relative;
+    height: fit-content;
+}
+#headerline_first div div.text_headerline img.icon {
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    height: 30px;
+}
+#headerline_first div .headerline_buttons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#headerline_first div .headerline_buttons a {
+    display: block;
+    position: relative;
+    height: 38px;
+    width: 38px;
+    background-color: #dad864;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+}
+#headerline_first div #voiti_button img {
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    height: 38px;
+}
+#headerline_second {
+    width: 100%;
+    padding: 0 5% 0 25%;
+    height: 50px;
+    top: 79px;
+    background-color: #632D09;
+}
+#headerline_second div {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerline_second div a.a_headerline {
+    font-size: 25px;
+    color: #FFFFFF;
+    float: left;
+    position: relative;
+    display: block;
+}
+#logotip {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    width: 20%;
+    min-width: 230px;
+    max-width: 335px;
+    z-index: 1000;
+}
+
+div.zagolovok {
+    color: #000000;
+    font-size: 65px;
+    width: fit-content;
+    font-family: 'headerfont';
+    position: relative;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+
+#footerline {
+    width: 100%;
+    height: 28px;
+    background-color: #632D09;
+    bottom: 0px;
+    margin-top: 100px;
+    color: #D1C4B3;
+    font-size: 16px;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+
+#name{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#name a1 {
+    height: 1px;
+    width: 70%;
+}
+#name a2 {
+    height: 1px;
+    width: 30%;
+}
+
+#zatemnenie {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #00000091;
+    display: none;
+    z-index: 5000;
+}
+
+
+#voiti_okno {
+    z-index: 6000;
+    position: fixed;
+    width: 56%;
+    height: 60%;
+    left: 22%;
+    right: 22%;
+    top: 20%;
+    bottom: 20%;
+    background-color: white;
+    border: 3px solid #A8DB85;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    overflow: hidden;
+    padding-bottom: 15px;
+    display: none;
+}
+#voiti_okno .name{
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#voiti_okno .name div {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#voiti_okno .name hr {
+    height: 3px;
+    border: none;
+    background-color: #A8DB85;
+    width: 100%;
+}
+#voiti_okno .h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#voiti_okno .h2 div {
+    font-size: 20px;
+    width: 100px;
+}
+#voiti_okno .h2 input {
+    border: 2px solid #A5A5A5;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 3px;
+}
+#voiti_okno .butte_1 {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 140px;
+    align-items: flex-end;
+}
+#voiti_okno .butte_1 #button_za_admin {
+    font-size: 14px;
+    background-color: #00000000;
+    border: none;
+    color: #A6A6A6;
+    margin-right: 20px;
+}
+#voiti_okno .butte_1 #voiti_okno_voiti {
+    font-size: 20px;
+    background-color: #C1DBAF;
+    border: none;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+}
+#voiti_okno .butte_2 {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    border-top: 3px dashed #A8DB85;
+    margin-top: 20px;
+    padding-top: 30px;
+    align-items: flex-end;
+}
+#voiti_okno .butte_2 div {
+    font-size: 20px;
+    margin-right: 20px;
+}
+#voiti_okno .butte_2 #button_zareg {
+    font-size: 20px;
+    background-color: #C1DBAF;
+    border: none;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+}
+#voiti_okno #voiti_okno_button_cloze {
+    background-color: #00000000;
+    border: none;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
+
+
+#registr_okno {
+    z-index: 6000;
+    position: fixed;
+    width: 56%;
+    height: 60%;
+    left: 22%;
+    right: 22%;
+    top: 20%;
+    bottom: 20%;
+    background-color: white;
+    border: 3px solid #A8DB85;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    overflow: hidden;
+    padding-bottom: 15px;
+    display: none;
+}
+#registr_okno .name{
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#registr_okno .name div {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#registr_okno .name hr {
+    height: 3px;
+    border: none;
+    background-color: #A8DB85;
+    width: 100%;
+}
+#registr_okno .h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#registr_okno .h2 div {
+    font-size: 20px;
+    width: 130px;
+}
+#registr_okno .h2 input {
+    border: 2px solid #A5A5A5;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 3px;
+}
+#registr_okno .butte_1 {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 43px;
+    align-items: flex-end;
+}
+#registr_okno .butte_1 #registr_okno_reg {
+    font-size: 20px;
+    background-color: #C1DBAF;
+    border: none;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+}
+#registr_okno .butte_2 {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    border-top: 3px dashed #A8DB85;
+    margin-top: 20px;
+    padding-top: 30px;
+    align-items: flex-end;
+}
+#registr_okno .butte_2 div {
+    font-size: 20px;
+    margin-right: 20px;
+}
+#registr_okno .butte_2 #registr_okno_voiti {
+    font-size: 20px;
+    background-color: #C1DBAF;
+    border: none;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+}
+#registr_okno #registr_okno_button_cloze {
+    background-color: #00000000;
+    border: none;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
+
+
+
+
+#voiti_admin_okno {
+    z-index: 6000;
+    position: fixed;
+    width: 56%;
+    height: 60%;
+    left: 22%;
+    right: 22%;
+    top: 20%;
+    bottom: 20%;
+    background-color: white;
+    border: 3px solid #A8DB85;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    overflow: hidden;
+    padding-bottom: 15px;
+    display: none;
+}
+#voiti_admin_okno .name{
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#voiti_admin_okno .name div {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#voiti_admin_okno .name hr {
+    height: 3px;
+    border: none;
+    background-color: #A8DB85;
+    width: 100%;
+}
+#voiti_admin_okno .h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#voiti_admin_okno .h2 div {
+    font-size: 20px;
+    width: 100px;
+}
+#voiti_admin_okno .h2 input {
+    border: 2px solid #A5A5A5;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 3px;
+}
+#voiti_admin_okno .butte_1 {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 140px;
+    align-items: flex-end;
+}
+#voiti_admin_okno .butte_1 #button_za_polz {
+    font-size: 14px;
+    background-color: #00000000;
+    border: none;
+    color: #A6A6A6;
+    margin-right: 20px;
+}
+#voiti_admin_okno .butte_1 #voiti_admin_okno_voiti {
+    font-size: 20px;
+    background-color: #C1DBAF;
+    border: none;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+}
+#voiti_admin_okno #voiti_admin_okno_button_cloze {
+    background-color: #00000000;
+    border: none;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
+
+
+.message {
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -110px;
+    left: 0px;
+    z-index: 7000;
+    background: linear-gradient(#000000e9, #000000c6, #00000000);
+    overflow: hidden;
+    transition: top 0.8s ease-in-out;
+}
+.message div {
+    width: fit-content;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 2px 10px 2px 10px;
+    background-color: white;
+    border: 2px solid #A8DB85;
+}

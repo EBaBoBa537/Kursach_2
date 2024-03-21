@@ -1,0 +1,70 @@
+div.zagolovok_5 {
+    left: 30px;
+    background-image: url(foto/zagolovok_5.png);
+    padding: 32px 6px 28px 38px;
+    background-size: 692px;
+    margin-top: 6px;
+}
+div.abzac {
+    width: fit-content;
+    font-size: 26px;
+    position: relative;
+    margin-top: 20px;
+}
+div.abzac hr {
+    background-color: #632D09;
+    border: none;
+    height: 2px;
+    width: 100%;
+    margin-top: 1px;
+}
+#pro_zakazy {
+    display: flex;
+    justify-content: center;
+}
+
+#pro_zakazy div {
+    background-color: #ffcdb4;
+    border: 3px solid #632D09;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 40px;
+    width: fit-content;
+}
+#pro_zakazy b div {
+    font-size: 21px;
+}
+
+#Oblast_dostavki_div {
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    margin-left: 10%;
+    height: 100px;
+    margin-top: 60px;
+}
+
+#Oblast_dostavki {
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'headerfont';
+}
+#Oblast_dostavki img {
+    position: absolute;
+    width: 60px;
+    margin-left: -250px;
+    top: 62px;
+}
+#dostavka_text {
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    margin-left: 8%;
+    margin-right: 20%;
+    margin-top: 60px;
+}
+#karta_oblast {
+    margin-top: 10px;
+}

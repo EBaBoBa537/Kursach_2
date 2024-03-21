@@ -1,0 +1,57 @@
+div.zagolovok_7 {
+    left: 30px;
+    background-image: url(foto/zagolovok_7.png);
+    padding: 0px 16px 48px 49px;
+    background-size: 431px;
+    margin-top: 34px;
+}
+
+#foto_kontakty {
+    width: 60%;
+    /* right: 5%; */
+    /* top: 300px; */
+}
+#My_na_karte {
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    height: 100px;
+    font-family: 'headerfont';
+}
+#My_na_karte img {
+    position: absolute;
+    width: 60px;
+    margin-left: -186px;
+    top: 62px;
+}
+div.abzac {
+    width: fit-content;
+    font-size: 26px;
+    position: relative;
+    margin-top: 20px;
+}
+div.abzac hr {
+    background-color: #632D09;
+    border: none;
+    height: 2px;
+    width: 100%;
+    margin-top: 1px;
+}
+#div_kontakty {
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+#kontakty_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    flex-shrink: 0;
+    min-height: 318px;
+    width: 320px;
+}

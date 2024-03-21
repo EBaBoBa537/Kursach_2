@@ -1,0 +1,124 @@
+div.zagolovok_8 {
+    left: 30px;
+    background-image: url(foto/zagolovok_8.png);
+    padding: 6px 36px 48px 22px;
+    background-size: 348px;
+    margin-top: 28px;
+}
+#otzyzy_block {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    position: relative;
+    margin-top: -10px;
+    flex-wrap: wrap;
+}
+
+#otzyzy_block .otzyv {
+    width: 40%;
+    background-color: white;
+    border: 3px solid #000000;
+    padding-left: 18px;
+    padding-top: 14px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+    margin-bottom: 40px;
+}
+#otzyzy_block .otzyv .name_i_zvezdy {
+    display: flex;
+    justify-content: space-between;
+}
+#otzyzy_block .otzyv .name_i_zvezdy .name {
+    /* background-color: #f4f0cd; */
+    font-size: 24px;
+    width: fit-content;
+    /* padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px; */
+}
+#otzyzy_block .otzyv .name_i_zvezdy .zvezdy img {
+    width: 20px;
+}
+#otzyzy_block .otzyv .otzyv_text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+#otzyzy_block .otzyv .data_i_ocenki {
+    display: flex;
+    justify-content: left;
+}
+#otzyzy_block .otzyv .data_i_ocenki .data {
+    color: #A5A5A5;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+#smotret_vse {
+    position: absolute;
+    width: 150%;
+    left: -25%;
+    height: 150px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    bottom: 0px;
+    background: linear-gradient(#00000000, #0000003c,#000000a9, #000000);
+}
+
+#napisat_block {
+    width: 100%;
+    background-color: white;
+    height: 650px;
+}
+#napisat_block .zagolov {
+    padding-top: 70px;
+    padding-left: 80px;
+    font-size: 50px;
+    width: fit-content;
+    font-family: 'headerfont';
+}
+#napisat_block .nam_i_zvezd{
+    display: flex;
+    justify-content:space-between;
+    width: 750px;
+    margin-top: 80px;
+    align-items: flex-end;
+    margin-left: 80px;
+}
+#napisat_block .nam_i_zvezd .zvezd img{
+    width: 20px;
+}
+#napisat_block .nam_i_zvezd .namee {
+
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+#napisat_block .inp_i_butt {
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+#napisat_block .inp_i_butt textarea {
+    width: 730px;
+    height: 280px;
+    resize: none;
+    border: 3px solid #dcdcdc;
+    padding: 10px;
+    font-size: 20px;
+}
+#napisat_block #opublikovat {
+    margin-left: 50px;
+    width: fit-content;
+    height: fit-content;
+    color:#000000;
+    font-size: 22px;
+    background-color: #efb365;
+    border: 3px solid #6e3918;
+    border-radius: 12px;
+    padding: 5px 15px 5px 15px;
+}

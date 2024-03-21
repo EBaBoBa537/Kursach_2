@@ -1,0 +1,94 @@
+div.zagolovok_9 {
+    left: 30px;
+    background-image: url(foto/zagolovok_9.png);
+    padding: 16px 6px 28px 38px;
+    background-size: 468px;
+    margin-top: 19px;
+}
+#izbr_list {
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+#izbr_list .item {
+    width: 100%;
+    height: 150px;
+    border: 3px solid #FADC86;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#izbr_list .first {
+    border-style: solid;
+    border-image: linear-gradient(#632D09, #FADC86);
+    border-image-slice: 1;
+}
+
+
+#izbr_list .item div.image {
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#izbr_list .item div.image img {
+    height: 80%;
+}
+#izbr_list .item .ostt{
+    width: 100%;
+    margin-left: 20px;
+}
+#izbr_list .item .ostt .nazvanie_bluda {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    height: 35px;
+    font-size: 28px;
+    margin-top: 15px;
+}
+#izbr_list .item div.opisanie {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    height: 55px;
+    font-size: 15px;
+    overflow: hidden;
+    line-height: 18px;
+}
+#izbr_list .item div.buttons {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#izbr_list .item div.buttons .cena {
+    font-size: 18px;
+    line-height: 40px;
+    display: flex;
+}
+#izbr_list .item div.buttons .butt_i_love {
+    display: flex;
+    align-items: center;
+}
+#izbr_list .item div.buttons .butt_i_love img {
+    width: 30px;
+}
+#izbr_list .item div.buttons .butt_i_love button {
+    background-color: #FADC86;
+    font-size: 18px;
+    border: none;
+    padding: 2px 8px 2px 8px;
+    margin-left: 10px;
+}
+#izbr_list .delete_it{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #00000000;
+    border: none;
+}
+img.love_img {
+    cursor: pointer;
+}
